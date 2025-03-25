@@ -1,0 +1,24 @@
+{
+  "name": "madden-draft-class-tools",
+  "version": "1.0.0",
+  "description": "A library to read/write Madden draft class files",
+  "main": "MaddenDCTools.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiiExpertise/madden-draft-class-tools.git"
+  },
+  "author": "WiiExpertise",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/WiiExpertise/madden-draft-class-tools/issues"
+  },
+  "homepage": "https://github.com/WiiExpertise/madden-draft-class-tools#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^11.1.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
