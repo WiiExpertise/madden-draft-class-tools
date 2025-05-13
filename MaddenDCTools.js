@@ -1,5 +1,4 @@
 // Required modules
-const fs = require('fs');
 const { FileParser } = require('./utils/FileParser');
 const dcFunctions = require('./utils/draftClassFunctions');
 
