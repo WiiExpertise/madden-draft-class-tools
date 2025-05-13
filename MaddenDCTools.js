@@ -4,9 +4,9 @@ const { FileParser } = require('./utils/FileParser');
 const dcFunctions = require('./utils/draftClassFunctions');
 
 // Function to export draft class to JSON
-function readDraftClass(path)
+function readDraftClass(buffer)
 {
-	const dcParser = new FileParser(fs.readFileSync(path));
+	const dcParser = new FileParser(buffer);
 	
 	const headerInfo = dcFunctions.parseHeader(dcParser);
 	const prospects = dcFunctions.parseProspects(dcParser, headerInfo);
