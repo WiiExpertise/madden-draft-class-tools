@@ -23,8 +23,8 @@ This library provides functionality for reading and writing Madden NFL draft cla
 
 ## Available Functions
 
-### readDraftClass(filePath: string): Object
-This function reads the Madden draft class file at `filePath` and returns the draft class as a JSON object, with the following general structure:
+### readDraftClass(fileBuf: buffer): Object
+This function takes in the buffer of a Madden draft class file as `fileBuf` and returns the draft class as a JSON object, with the following general structure:
 ```
 {
     "header": {
